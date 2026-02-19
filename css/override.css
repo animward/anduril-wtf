@@ -1,0 +1,38 @@
+/* Site override: anduril.wtf */
+:root {
+--color-primary: #ff6b00;
+--color-primary-dim: #cc5500;
+--color-primary-bright: #ff8533;
+--color-bg: #0d0d0d;
+--color-surface: #1a1a1a;
+--color-surface-elevated: #222222;
+--color-text: #e0e0e0;
+--color-text-muted: #999;
+--color-border: rgba(255, 107, 0, 0.12);
+--color-border-strong: rgba(255, 107, 0, 0.3);
+--color-glow: rgba(255, 107, 0, 0.4);
+--font-heading: 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+--font-body: 'Proxima Nova', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+		--hero-title-color: #ff6b00;
+}
+
+.strider-header { border-color: #ff6b00; }
+.strider-brand h1 {
+	color: #ff6b00;
+	text-shadow: 0 0 20px rgba(255,107,0,0.4);
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.strider-tagline { color: #cc5500; }
+.strider-footer { border-color: #ff6b00; }
+.hero-title { text-shadow: 0 0 30px rgba(255,107,0,0.3); }
+.service-card {
+	background: #141414;
+	border: 1px solid rgba(255,107,0,0.08);
+}
+.service-card:hover {
+	border-color: #ff6b00;
+	box-shadow: 0 0 20px rgba(255,107,0,0.12);
+}
+.section h2 { color: #ff6b00; }
+
